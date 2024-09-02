@@ -15,7 +15,7 @@
                   $valor1 = (float) $_POST['valor1'] ?? 0;
                   $valor2 = (float) $_POST['valor2'] ?? 0;
                   //+ - * / % ++ -- ** potenciação
-                  $resultado = $valor1 / ($valor2 ** 2);
+                  $resultado = $valor1 / ($valor2 * $valor2);
                   echo "<p>Resultado do IMC: $resultado </p>";
 
               }catch(Exception $e){
