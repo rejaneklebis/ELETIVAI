@@ -10,7 +10,7 @@
 
 <body class="container">
   <h5>Exercício 03 - Colocar A e B em ordem crescente</h5>
-  <form action="exer3resp.php" method="POST">
+  <form action="exerc3resp.php" method="POST">
     <div class="row">
       <div class="col">
         <label for="valorA" class="form-label">Valor A: </label>

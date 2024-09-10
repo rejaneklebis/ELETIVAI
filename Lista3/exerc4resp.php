@@ -15,19 +15,15 @@
   {
     try 
     {
-      $valorA = (int)$_POST["valorA"] ?? 0;
-      $valorB = (int)$_POST["valorB"] ?? 0;
-      if($valorA > $valorB)
+      $valor1 = (int)$_POST["valor1"] ?? 0;
+      if($valor1 > 100)
       {
-        echo "<p>$valorB , $valorA</p>";
-      }
-      elseif($valorB > $valorA)
-      {
-        echo "<p>$valorA , $valorB</p>";
+        $novoValor = round($valor1 - ($valor1 * 15 / 100) , 2);
+        echo "<p>Desconto aplicado. Novo valor: R$ $novoValor</p>";
       }
       else
       {
-        echo "<p>Os valores são iguais: $valorA</p>";
+        echo "<p>Desconto não aplicado. Valor: R$ $valor1.</p>";
       }
     } catch (Exception $e) 
     {
