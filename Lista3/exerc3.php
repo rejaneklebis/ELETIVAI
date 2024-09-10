@@ -9,16 +9,16 @@
 </head>
 
 <body class="container">
-  <h5>Exercício 02 - Somar números diferentes ou o triplo da soma</h5>
-  <form action="exerc2resp.php" method="POST">
+  <h5>Exercício 03 - Colocar A e B em ordem crescente</h5>
+  <form action="exer3resp.php" method="POST">
     <div class="row">
       <div class="col">
-        <label for="valor1" class="form-label">Valor 1: </label>
-        <input type="number" class="form-control" name="valor1" id="valor1">
+        <label for="valorA" class="form-label">Valor A: </label>
+        <input type="number" class="form-control" name="valorA" id="valorA">
       </div>
       <div class="col">
-        <label for="valor2" class="form-label">Valor 2: </label>
-        <input type="number" class="form-control" name="valor2" id="valor2">
+        <label for="valorB" class="form-label">Valor B: </label>
+        <input type="number" class="form-control" name="valorB" id="valorB">
       </div>
     </div>
     <div class="row">
