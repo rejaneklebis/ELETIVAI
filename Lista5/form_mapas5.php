@@ -11,7 +11,7 @@
       
       <h5>Exercício 05</h5>
 
-      <!-- Formulário para cadastro de livros -->
+      
       <form action="" method="POST">
         <div class="row">
           <div class="col mb-3">
