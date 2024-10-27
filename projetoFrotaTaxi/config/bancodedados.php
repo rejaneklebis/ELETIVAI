@@ -1,7 +1,7 @@
 <?php
 
     $host = "localhost"; 
-    $db = "banco_php";
+    $db = "bancofrota_php";
     $usuario = "root";
     $senha = "";
     $port = "3306"; //para trocar a porta se precisar

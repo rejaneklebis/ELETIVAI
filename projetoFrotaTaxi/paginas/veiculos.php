@@ -10,9 +10,9 @@
         <thead>
             <tr>
                 <th>ID</th>
-                <th>Data</th>
-                <th>Produto</th>
-                <th>Quantidade</th>
+                <th>Data de Cadastro</th>
+                <th>Modelo</th>
+                <th>Placa</th>
                 <th>Ações</th>
             </tr>
         </thead>
@@ -20,8 +20,8 @@
             <tr>
                 <td>1</td>
                 <td>10/10/2024</td>
-                <td>Tênis</td>
-                <td>20</td>
+                <td>Onix</td>
+                <td>AAA-1234</td>
                 <td>
                     <a href="excluir_compra.php" class="btn btn-danger">Excluir</a>
                 </td>

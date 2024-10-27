@@ -30,7 +30,7 @@
 
 <div class="container mt-5">
     <h2>Login</h2>
-    <form method="post">
+    <form method="post" action="dashboard.php">
         <div class="mb-3">
             <label for="email" class="form-label">Email</label>
             <input type="email" name="email" class="form-control" id="email" required>
