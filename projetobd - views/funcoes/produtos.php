@@ -11,7 +11,7 @@
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    function buscarProdutosPorId(int $id) : ?array {
+    function buscarProdutoPorId(int $id) : ?array {
         global $pdo;
         $stmt = $pdo->prepare("SELECT p.*, c.nome as nome_categoria FROM produto p 
                             INNER JOIN categoria c ON c.id = p.categoria_id
