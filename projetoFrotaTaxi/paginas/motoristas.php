@@ -23,6 +23,15 @@
                     <a href="excluir_motorista.php" class="btn btn-danger">Excluir</a>
                 </td>
             </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Motorista 2</td>
+                <td>
+                    <a href="editar_motorista.php" class="btn btn-warning">Editar</a>
+                    <a href="excluir_motorista.php" class="btn btn-danger">Excluir</a>
+                </td>
+            </tr>
         </tbody>
     </table>
 </div>

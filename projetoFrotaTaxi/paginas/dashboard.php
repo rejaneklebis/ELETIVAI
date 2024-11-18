@@ -1,6 +1,9 @@
 <?php
     require_once 'cabecalho.php'; 
     require_once 'navbar.php';
+    require_once '../funcoes/veiculos.php';
+    
+    $dados = gerarDadosGrafico();
 ?>
 
 <main class="container">
@@ -21,17 +24,17 @@
         function drawChart() {
             // Array de dados que será usado no gráfico
             var data = google.visualization.arrayToDataTable([
-                ['Produto', 'Estoque Comprado'],
-                ['Tênis', 10],
-                ['Camiseta', 30],
-                ['Short', 25],
-                ['Meia', 5],
+                ['Motoristas', 'Corridas Realizadas'],
+                ['Rejane', 15],
+                ['Rosângela', 15],
+                ['Manoel', 20],
+                ['Bianca',10],
             ]);
 
             // Opções de customização do gráfico
             var options = {
-                title: 'Estoque de Produtos Comprados',
-                hAxis: {title: 'Produtos',  titleTextStyle: {color: '#333'}},
+                title: 'Número de corridas realizadas',
+                hAxis: {title: 'Número de corridas',  titleTextStyle: {color: '#333'}},
                 vAxis: {minValue: 0},
                 chartArea: {width: '70%', height: '70%'}
             };
